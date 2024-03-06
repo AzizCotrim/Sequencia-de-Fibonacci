@@ -25,7 +25,6 @@ namespace Teste1 {
                 int temp = a;
                 a = b;
                 b = temp + b;
-                Console.WriteLine($"{temp},{a},{b}");
             }
 
             return false;
